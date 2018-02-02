@@ -1,0 +1,14 @@
+<!-- {{ if }} {{ else }} {{ end }} -->
+<snippet>
+	<content><![CDATA[
+{{ if $1 }}
+	$2
+{{ else }}
+	$3
+{{ end }}
+]]></content>
+	<!-- Tab trigger: ife -->
+	<tabTrigger>ife</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>

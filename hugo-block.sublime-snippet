@@ -1,0 +1,12 @@
+<!-- {{ block "main" . }} {{ end }} -->
+<snippet>
+	<content><![CDATA[
+{{ block "${1:main}" ${2:.} }}
+	$3
+{{ end }}
+]]></content>
+	<!-- Tab trigger: block -->
+	<tabTrigger>block</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>

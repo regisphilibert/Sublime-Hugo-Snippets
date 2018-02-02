@@ -1,0 +1,10 @@
+<!-- {{ . }} (you might use it often) -->
+<snippet>
+	<content><![CDATA[
+{{ . }}
+]]></content>
+	<!-- Tab trigger: dot -->
+	<tabTrigger>dot</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>

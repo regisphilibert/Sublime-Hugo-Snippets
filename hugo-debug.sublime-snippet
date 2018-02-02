@@ -1,0 +1,10 @@
+<!-- {{ printf "%#v"  }} (useful debug printing) -->
+<snippet>
+	<content><![CDATA[
+{{ printf "%#v" $1 }}
+]]></content>
+	<!-- Tab trigger: debug -->
+	<tabTrigger>debug</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>

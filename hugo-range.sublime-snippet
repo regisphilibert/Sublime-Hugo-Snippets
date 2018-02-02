@@ -1,0 +1,12 @@
+<!-- {{ range  }} {{ end }} -->
+<snippet>
+	<content><![CDATA[
+{{ range $1 }}
+	$2
+{{ end }}
+]]></content>
+	<!-- Tab trigger: partial -->
+	<tabTrigger>range</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>

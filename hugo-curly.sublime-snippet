@@ -1,0 +1,11 @@
+<!-- {{  }} Yes those one. -->
+<snippet>
+	<content><![CDATA[
+{{ $1 }}
+]]></content>
+	<!-- Set to x for my own liking, update to yours ("." is already used by emmet)-->
+	<tabTrigger>x</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>
+

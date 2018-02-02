@@ -1,0 +1,14 @@
+<!-- {{ with }} {{ else }} {{ end }} -->
+<snippet>
+	<content><![CDATA[
+{{ with $1 }}
+	$2
+{{ else }}
+	$3
+{{ end }}
+]]></content>
+	<!-- Tab trigger: withe -->
+	<tabTrigger>withe</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>

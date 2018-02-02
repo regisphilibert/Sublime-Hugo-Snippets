@@ -1,0 +1,10 @@
+<!-- {{ partial "" . }} -->
+<snippet>
+	<content><![CDATA[
+{{ partial "$1" ${2:.} }}
+]]></content>
+	<!-- Tab trigger: partial -->
+	<tabTrigger>partial</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>
