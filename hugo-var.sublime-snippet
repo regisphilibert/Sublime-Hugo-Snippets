@@ -1,0 +1,10 @@
+<!-- {{ $var := what }} -->
+<snippet>
+	<content><![CDATA[
+{{ \$${1:var} := $2 }}
+]]></content>
+	<!-- Tab trigger: partial -->
+	<tabTrigger>vars</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>
