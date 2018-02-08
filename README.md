@@ -1,5 +1,11 @@
 # Sublime Text Snippets for Hugo developement
 
+## Installation
+
+Package Control is coming in the mean time, you can just drop the files in there:
+
+`/Users/thatUser/Library/Application Support/Sublime Text 3/Packages/User/`
+
 Snippet | Tab Trigger | Output
 --- | --- | ---
 Curlies | __x__ | `{{ }}`
@@ -15,9 +21,3 @@ Block | __block__ | `{{ block "main" . }} {{ end }}`
 Block define | __define__ | `{{ define "block" }} {{ end }}`
 Variable | __vars__ | `{{ $var := what }}`
 Debug | __debug__ | `{{ printf "%#v"  }}`
-
-## Installation
-
-Package Control is coming in the mean time, you can just drop the files in there:
-
-`/Users/thatUser/Library/Application Support/Sublime Text 3/Packages/User/`
