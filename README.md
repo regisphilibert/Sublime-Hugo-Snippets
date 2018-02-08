@@ -21,3 +21,4 @@ Block | __block__ | `{{ block "main" . }} {{ end }}`
 Block define | __define__ | `{{ define "block" }} {{ end }}`
 Variable | __vars__ | `{{ $var := what }}`
 Debug | __debug__ | `{{ printf "%#v"  }}`
+Comment | __comm__ | `{{/* */}}`
