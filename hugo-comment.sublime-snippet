@@ -1,0 +1,11 @@
+<!-- {{/*  */}} Tell them what this does. This is a fancy comment. -->
+<snippet>
+	<content><![CDATA[
+{{/* $1 */}}
+]]></content>
+	<!-- Set to comm for my own liking, update to yours ("." is already used by emmet)-->
+	<tabTrigger>comm</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>
+
