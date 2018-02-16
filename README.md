@@ -2,9 +2,17 @@
 
 ## Installation
 
-Package Control is coming in the mean time, you can just drop the files in there:
+### OSX
 
-`/Users/thatUser/Library/Application Support/Sublime Text 3/Packages/User/`
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+    $ git clone git@github.com:regisphilibert/Sublime-Hugo-Snippets.git
+
+### Linux (Ubuntu like distros)
+
+    $ cd ~/.config/sublime-text-3/Packages/User
+    $ git clone git@github.com:regisphilibert/Sublime-Hugo-Snippets.git
+    
+## Available Snippets
 
 Snippet | Tab Trigger | Output
 --- | --- | ---
