@@ -1,13 +1,19 @@
-# Sublime Text Snippets for Hugo developement
+# Sublime Text Snippets for [Hugo](https://gohugo.io)
 
 ## Installation
 
-### OSX
+### With Package Control
+
+[Package Control: Install Package](https://packagecontrol.io/docs/usage) and look for `Hugo Snippets`
+
+### With Git
+
+#### OSX
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
     $ git clone git@github.com:regisphilibert/Sublime-Hugo-Snippets.git
 
-### Linux (Ubuntu like distros)
+#### Linux (Ubuntu like distros)
 
     $ cd ~/.config/sublime-text-3/Packages/User
     $ git clone git@github.com:regisphilibert/Sublime-Hugo-Snippets.git
