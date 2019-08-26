@@ -31,6 +31,7 @@ With | __with__ | `{{ with }} {{ end }}`
 With/Else | __withe__ | `{{ with }} {{ else }} {{ end }}`
 Range | __range__ | `{{ range  }} {{ end }}`
 Partial | __partial__ | `{{ partial "" . }}`
+Shortcode | __short__ | `{{< shortcode arg >}}`
 Block | __block__ | `{{ block "main" . }} {{ end }}`
 Block define | __define__ | `{{ define "block" }} {{ end }}`
 Variable | __vars__ | `{{ $var := what }}`

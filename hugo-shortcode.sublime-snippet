@@ -1,0 +1,10 @@
+<!-- {{< shortcode arg >}} -->
+<snippet>
+	<content><![CDATA[
+{{< ${1:shortcode} ${2:arg} >}}
+]]></content>
+	<!-- Tab trigger: short -->
+	<tabTrigger>short</tabTrigger>
+	<!-- Scope is limited to GoSublime's GoHTML syntax and HTML -->
+	<scope>text.html.gohtml, text.html</scope>
+</snippet>
